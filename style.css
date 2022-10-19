@@ -1,5 +1,5 @@
 :root{
-    --transparent-background: rgba(4, 4, 4, 0.61);
+    --transparent-background: rgba(4, 4, 4, 0.899);
     --main-nav-bg: #313131;
     --dark-nav-bg: #222222;
 
@@ -117,6 +117,7 @@ section{
     transition: .2s;
     animation: menuClose forwards .2s ease-in-out;
     will-change: width, height;
+    overflow: hidden;
 }
 
 .menu.active{
